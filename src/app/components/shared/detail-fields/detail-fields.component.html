@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-12">
+        <button class="btn btn-link" routerLink="/search">Go Back</button>
+    </div>
+    <div class="col-6 mt-2">
+        <div class="card">
+            <div class="card-header"><b>Personal Info</b></div>
+            <div class="card-body">
+                <div class="row" >
+                    <div class="col-6"><b>Name</b></div>
+                    <div class="col-6">{{user?.name}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Phone</b></div>
+                    <div class="col-6">{{user?.phone}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Username</b></div>
+                    <div class="col-6">{{user?.username}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Website</b></div>
+                    <div class="col-6">{{user?.website}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 mt-2">
+        <div class="card">
+            <div class="card-header"><b>Address Info</b></div>
+            <div class="card-body">
+                <div class="row" >
+                    <div class="col-6"><b>City</b></div>
+                    <div class="col-6">{{user?.address?.city}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Street</b></div>
+                    <div class="col-6">{{user?.address?.street}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Suite</b></div>
+                    <div class="col-6">{{user?.address?.suite}}</div>
+                </div>
+                <div class="row" >
+                    <div class="col-6"><b>Zipcode</b></div>
+                    <div class="col-6">{{user?.address?.zipcode}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

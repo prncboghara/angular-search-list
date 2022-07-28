@@ -1,0 +1,10 @@
+<div class="col-6 offset-3">
+    <h3>Users List</h3>
+
+    <p class="text-secondary text-small"><i>Users list is retrived from <q>https://jsonplaceholder.typicode.com</q> using API call</i></p>
+    
+    <form class="mt-2" [formGroup]="searchForm">
+        <label for="">Search</label>
+        <input class="form-control" type="text" placeholder="Enter User Name" formControlName="text">
+    </form>
+</div>
